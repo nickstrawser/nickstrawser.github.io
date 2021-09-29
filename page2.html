@@ -1,7 +1,18 @@
 <html>
 
-<head>
-	<h2>PAGE 2 HEADER</h2>
-</head>
+	<head>
+		<h2>PAGE 2</h2>
+	</head>
 
+	<body>
+		<p>Welcome to Page 2!</p>
+		<p>Press the button below to return to page 1</p>
+
+		<button id="btn" onclick="clickFunction()" value="Home"><- Page 1</button>
+		
+		<script>
+			function clickFunction(){
+				location.href = "index.html"
+			}
+		</script>
 </html>
